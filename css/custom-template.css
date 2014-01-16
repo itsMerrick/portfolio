@@ -1,0 +1,190 @@
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 80px 15px;
+  text-align: center;
+  background-image: url(../images/1353147538639.jpg);
+  background-size:cover;
+  background-position: 0 550px;
+  background-attachment:fixed;
+}
+
+.starter-template2 {
+  padding: 80px 15px;
+  text-align: center;
+  background-image:url(../images/toolbox.jpg);
+  background-attachment:fixed;
+  background-color:#f8f2cd;
+}
+
+.starter-template3 {
+  padding: 80px 15px;
+  text-align: center;
+  background-image: url(../images/1353890618144.jpg);
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+.lead_white {
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.4;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+@media (min-width: 768px) {
+  .lead_white {
+    font-size: 21px;
+  }
+}
+
+.custom_white
+{
+	color: white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+@media (max-width: 768px) { /* Force the image to its minimum width */
+
+    .starter-template {
+        background-size: 900px 600px;  /* Force the image to its minimum width */
+    }
+
+}
+
+.inlineblock
+{
+	display:inline-block;
+}
+
+@media (max-width: 768px) { /* Force the image to its minimum width */
+
+    .inlineblock {
+        display: block;  /* Force the image to its minimum width */
+    }
+
+}
+
+.margintop
+{
+	margin-top: 50px;
+}
+
+.marginbottom
+{
+	margin-bottom: 50px;
+}
+
+.margintop1
+{
+	margin-top: 100px;
+}
+
+.marginbottom1
+{
+	margin-bottom: 100px;
+}
+
+.paddingbottom
+{
+	padding-bottom: 100px;
+}
+
+.marginleft
+{
+	margin-left:50px;
+}
+
+@media (max-width: 1000px) { /* Force the image to its minimum width */
+
+    .margin {
+       margin: auto;  /* Force the image to its minimum width */
+    }
+
+}
+
+.barwidth
+{
+	width: 70%;
+}
+
+.center
+{
+	text-align:center;
+}
+
+.left
+{
+	text-align:left;
+}
+
+.vabottom
+{
+	vertical-align:bottom;
+}
+
+.negmargintop
+{
+	margin-top:-300px;
+}
+
+@media (max-width: 1000px) { /* Force the image to its minimum width */
+
+    .negmargintop {
+		margin-top:50px;       
+    }
+
+}
+
+.marginauto
+{
+	margin:auto;
+}
+
+.equalpadding
+{
+	padding:5px;
+}
+
+.container2
+{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.card
+{
+	background:white;
+	border-radius:5px;
+	max-width: 500px;
+	margin:auto;
+	margin-top: 100px;
+	padding: 20px;
+	margin-bottom:-85px;
+}
+
+.icon_container
+{
+	margin:auto;
+	max-width: 650px;
+	padding:10px;
+}
+
+.bottomshadow
+{
+	box-shadow: 0 8px 6px -6px black;
+}
+
+.pointer
+{
+	cursor:pointer;
+}
+
+.opac
+{
+	opacity: 0.85;
+}
